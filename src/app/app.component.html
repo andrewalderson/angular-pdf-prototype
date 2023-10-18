@@ -1,1 +1,6 @@
-<p>App works!</p>
+<mat-toolbar>
+    <button mat-icon-button appFileOpenButton (fileSelected)="_openPdfFile($event)">
+        <mat-icon>file_open</mat-icon>
+        <span class="cdk-visually-hidden">Open file</span>
+    </button>
+</mat-toolbar>
